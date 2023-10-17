@@ -18,6 +18,13 @@ const memberStore = useMemberStore()
       type="primary"
     >
       保存用户信息
+      <!-- echo "# xcx" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:xyjhh/xcx.git
+git push -u origin main -->
     </button>
     <button @tap="memberStore.clearProfile()" size="mini" plain type="warn">清理用户信息</button>
   </view>
